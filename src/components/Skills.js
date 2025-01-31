@@ -35,25 +35,51 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>"Highlighting expertise in system architecture and advanced engineering techniques. Each skill reflects a commitment <br></br>to building scalable, efficient, and innovative solutions."
+                        </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
+  <div className="item">
+    <img src={meter1} alt="Image" />
+    <h5>Requirement Analysis</h5>
+  </div>
+  <div className="item">
+    <img src={meter2} alt="Image" />
+    <h5>Research Skills</h5>
+  </div>
+  <div className="item">
+    <img src={meter3} alt="Image" />
+    <h5>System Analysis</h5>
+  </div>
+  <div className="item">
+    <img src={meter1} alt="Image" />
+    <h5>UI/UX Design</h5>
+  </div>
+  <div className="item">
+    <img src={meter2} alt="Image" />
+    <h5>Backend Development</h5>
+  </div>
+  <div className="item">
+    <img src={meter3} alt="Image" />
+    <h5>Frontend Development</h5>
+  </div>
+  <div className="item">
+    <img src={meter1} alt="Image" />
+    <h5>Data Visualization</h5>
+  </div>
+  <div className="item">
+    <img src={meter2} alt="Image" />
+    <h5>System Testing</h5>
+  </div>
+  <div className="item">
+    <img src={meter3} alt="Image" />
+    <h5>Project Planning & Collaboration</h5>
+  </div>
+  <div className="item">
+    <img src={meter1} alt="Image" />
+    <h5>Deployment & Maintenance</h5>
+  </div>
+</Carousel>
+
                     </div>
                 </div>
             </div>
